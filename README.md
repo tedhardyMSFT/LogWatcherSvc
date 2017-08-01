@@ -6,8 +6,10 @@ This runs as a windows service that reads specific windows event logs and Window
 
 # Performance Counters
 There are two new Performance Counters created:
-## Windows Event Forwarding
-## Windows Event Log
+### Windows Event Forwarding
+  Yes, it says "Windows Event Forwarding" but it is really for the Windows Event _Collector_ but the feature-set is called Windows Event Forwarding. 
+### Windows Event Log
+
 
 ## Windows Event Forwarding
 Under "Windows Event Forwarding" performance counter there are two performance objects created: Active Event Source Count and Total Event Source Count.
