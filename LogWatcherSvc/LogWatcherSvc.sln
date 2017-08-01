@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogWatcherSvc", "LogWatcherSvc\LogWatcherSvc.csproj", "{3BEE1652-8B0A-4D32-AF51-DE6B39E0BF9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{366842E8-E79A-44D0-A8C7-698609C18249} = {366842E8-E79A-44D0-A8C7-698609C18249}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WecSubscriptionInfo", "WecSubscriptionInfo\WecSubscriptionInfo.csproj", "{366842E8-E79A-44D0-A8C7-698609C18249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BEE1652-8B0A-4D32-AF51-DE6B39E0BF9F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEE1652-8B0A-4D32-AF51-DE6B39E0BF9F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{3BEE1652-8B0A-4D32-AF51-DE6B39E0BF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEE1652-8B0A-4D32-AF51-DE6B39E0BF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366842E8-E79A-44D0-A8C7-698609C18249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366842E8-E79A-44D0-A8C7-698609C18249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366842E8-E79A-44D0-A8C7-698609C18249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366842E8-E79A-44D0-A8C7-698609C18249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
